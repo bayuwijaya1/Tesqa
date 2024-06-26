@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Master,Chrome 126.0.0.0,,,19-06-2024 14:27:06,19-06-2024 14:28:35,1m - 28.497s,FAILED
+,,,,,,,
+Test Cases/Login/Login,Chrome 126.0.0.0,,,19-06-2024 14:27:07,19-06-2024 14:27:45,38.634s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,19-06-2024 14:27:08,19-06-2024 14:27:20,12.346s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-06-2024 14:27:20,19-06-2024 14:27:20,0.068s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 126.0.0.0,,,19-06-2024 14:27:20,19-06-2024 14:27:21,0.906s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,19-06-2024 14:27:21,19-06-2024 14:27:22,0.806s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 126.0.0.0,,,19-06-2024 14:27:22,19-06-2024 14:27:22,0.407s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,19-06-2024 14:27:22,19-06-2024 14:27:45,22.869s,PASSED
+,,,,,,,
+Test Cases/Master/Position,Chrome 126.0.0.0,,,19-06-2024 14:27:45,19-06-2024 14:27:58,12.811s,PASSED
+"click(findTestObject(""Menu/Master""))",Chrome 126.0.0.0,,,19-06-2024 14:27:45,19-06-2024 14:27:46,0.324s,PASSED
+"click(findTestObject(""Master Position/Position""))",Chrome 126.0.0.0,,,19-06-2024 14:27:46,19-06-2024 14:27:46,0.654s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan halaman position"")",Chrome 126.0.0.0,,,19-06-2024 14:27:46,19-06-2024 14:27:53,6.773s,PASSED
+"setText(findTestObject(""Master Position/search""), ""Field collector"")",Chrome 126.0.0.0,,,19-06-2024 14:27:53,19-06-2024 14:27:54,0.700s,PASSED
+"click(findTestObject(""Master Position/btn search""))",Chrome 126.0.0.0,,,19-06-2024 14:27:54,19-06-2024 14:27:55,0.912s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan pencarian"")",Chrome 126.0.0.0,,,19-06-2024 14:27:55,19-06-2024 14:27:58,3.337s,PASSED
+,,,,,,,
+Test Cases/Master/Regional,Chrome 126.0.0.0,,,19-06-2024 14:27:58,19-06-2024 14:28:11,12.525s,PASSED
+"click(findTestObject(""Menu/Master""))",Chrome 126.0.0.0,,,19-06-2024 14:27:58,19-06-2024 14:27:59,0.284s,PASSED
+"click(findTestObject(""Regional/Regional""))",Chrome 126.0.0.0,,,19-06-2024 14:27:59,19-06-2024 14:27:59,0.314s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman regional"")",Chrome 126.0.0.0,,,19-06-2024 14:27:59,19-06-2024 14:28:05,6.050s,PASSED
+"setText(findTestObject(""Regional/Search""), ""Jakarta"")",Chrome 126.0.0.0,,,19-06-2024 14:28:05,19-06-2024 14:28:06,0.603s,PASSED
+"click(findTestObject(""Regional/btn search""))",Chrome 126.0.0.0,,,19-06-2024 14:28:06,19-06-2024 14:28:06,0.552s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian"")",Chrome 126.0.0.0,,,19-06-2024 14:28:06,19-06-2024 14:28:11,4.598s,PASSED
+,,,,,,,
+Test Cases/Master/Branch,Chrome 126.0.0.0,,,19-06-2024 14:28:12,19-06-2024 14:28:21,8.330s,PASSED
+"click(findTestObject(""Menu/Master""))",Chrome 126.0.0.0,,,19-06-2024 14:28:12,19-06-2024 14:28:13,0.301s,PASSED
+"click(findTestObject(""Branch/Branch""))",Chrome 126.0.0.0,,,19-06-2024 14:28:13,19-06-2024 14:28:13,0.278s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman branch"")",Chrome 126.0.0.0,,,19-06-2024 14:28:13,19-06-2024 14:28:17,4.145s,PASSED
+"setText(findTestObject(""Branch/search""), ""Bandung"")",Chrome 126.0.0.0,,,19-06-2024 14:28:17,19-06-2024 14:28:18,0.664s,PASSED
+"click(findTestObject(""Branch/btn search""))",Chrome 126.0.0.0,,,19-06-2024 14:28:18,19-06-2024 14:28:18,0.497s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang di cari"")",Chrome 126.0.0.0,,,19-06-2024 14:28:18,19-06-2024 14:28:21,2.428s,PASSED
+,,,,,,,
+Test Cases/Master/Aplication rules,Chrome 126.0.0.0,,,19-06-2024 14:28:21,19-06-2024 14:28:32,11.048s,PASSED
+"click(findTestObject(""Menu/Master""))",Chrome 126.0.0.0,,,19-06-2024 14:28:21,19-06-2024 14:28:21,0.326s,PASSED
+"click(findTestObject(""Aplication rules/Aolications rules""))",Chrome 126.0.0.0,,,19-06-2024 14:28:21,19-06-2024 14:28:21,0.393s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan halaman aplication rules"")",Chrome 126.0.0.0,,,19-06-2024 14:28:21,19-06-2024 14:28:28,6.372s,PASSED
+"setText(findTestObject(""Aplication rules/search""), ""IT Admin"")",Chrome 126.0.0.0,,,19-06-2024 14:28:28,19-06-2024 14:28:28,0.624s,PASSED
+"click(findTestObject(""Aplication rules/btn search""))",Chrome 126.0.0.0,,,19-06-2024 14:28:28,19-06-2024 14:28:29,0.987s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pencarian yang dicari"")",Chrome 126.0.0.0,,,19-06-2024 14:28:29,19-06-2024 14:28:32,2.239s,PASSED
+,,,,,,,
+Test Cases/Master/Mobile printer,Chrome 126.0.0.0,,,19-06-2024 14:28:34,19-06-2024 14:28:35,0.708s,FAILED
+"click(findTestObject(""Menu/Master""))",Chrome 126.0.0.0,,,19-06-2024 14:28:34,19-06-2024 14:28:34,0.272s,PASSED
+"click(findTestObject(""Mobile printer/mobile printer""))",Chrome 126.0.0.0,,,19-06-2024 14:28:34,19-06-2024 14:28:35,0.422s,FAILED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+change pass,Chrome 126.0.0.0,,,19-06-2024 14:26:55,19-06-2024 14:27:42,47.011s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 126.0.0.0,,,19-06-2024 14:26:55,19-06-2024 14:27:28,32.853s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,19-06-2024 14:26:55,19-06-2024 14:27:04,8.866s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-06-2024 14:27:04,19-06-2024 14:27:04,0.198s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 126.0.0.0,,,19-06-2024 14:27:04,19-06-2024 14:27:08,3.372s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,19-06-2024 14:27:08,19-06-2024 14:27:09,1.105s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 126.0.0.0,,,19-06-2024 14:27:09,19-06-2024 14:27:10,1.048s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,19-06-2024 14:27:10,19-06-2024 14:27:28,17.845s,PASSED
+,,,,,,,
+Test Cases/User profile/Change pass,Chrome 126.0.0.0,,,19-06-2024 14:27:28,19-06-2024 14:27:42,13.871s,PASSED
+"click(findTestObject(""Change pass/change password""))",Chrome 126.0.0.0,,,19-06-2024 14:27:28,19-06-2024 14:27:29,0.408s,PASSED
+"takeScreenshotAsCheckpoint(""menampilkan pergantian pass"")",Chrome 126.0.0.0,,,19-06-2024 14:27:29,19-06-2024 14:27:37,8.275s,PASSED
+"setText(findTestObject(""Change pass/old pass""), ""indocyber"")",Chrome 126.0.0.0,,,19-06-2024 14:27:37,19-06-2024 14:27:38,0.620s,PASSED
+"setText(findTestObject(""Change pass/New pass""), ""Indocyber"")",Chrome 126.0.0.0,,,19-06-2024 14:27:38,19-06-2024 14:27:38,0.592s,PASSED
+"setText(findTestObject(""Change pass/Confirm new pass""), ""Indocyber"")",Chrome 126.0.0.0,,,19-06-2024 14:27:38,19-06-2024 14:27:39,0.605s,PASSED
+"click(findTestObject(""Change pass/btn closed""))",Chrome 126.0.0.0,,,19-06-2024 14:27:39,19-06-2024 14:27:39,0.321s,PASSED
+"takeScreenshotAsCheckpoint(""kembali ke halaman change pass"")",Chrome 126.0.0.0,,,19-06-2024 14:27:39,19-06-2024 14:27:42,2.491s,PASSED

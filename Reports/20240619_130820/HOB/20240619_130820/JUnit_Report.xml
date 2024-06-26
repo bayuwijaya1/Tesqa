@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HOB" time="112.537" tests="6" failures="0" errors="0">
+   <testsuite name="HOB" tests="6" failures="0" errors="0" time="112.537" skipped="0" timestamp="19-06-2024T13:08:43" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/HOB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130820\\HOB\\20240619_130820"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130820\\HOB\\20240619_130820\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130820\\HOB\\20240619_130820\\1718777385368.png, keyes\keyes-Menampilkan hal hob action.png, keyes\keyes-Menampilkan hal action adjust.png, C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130820\\HOB\\20240619_130820\\1718777413636.png, keyes\keyes-Menampilkan hal action report.png, C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130820\\HOB\\20240619_130820\\1718777423090.png, keyes\keyes-Menampilkan hal Action summary.png, C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130820\\HOB\\20240619_130820\\1718777429564.png, keyes\keyes-Menampilkan hal action assign.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.33"/>
+         <property name="sessionId" value="b92adc236fb84da6263cc0aa6b2d6950"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="58.139" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:08:44 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+19-06-2024T13:08:45 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+19-06-2024T13:08:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-06-2024T13:08:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-06-2024T13:09:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+19-06-2024T13:09:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-06-2024T13:09:19 - [MESSAGE][PASSED] - Current window maximized
+
+19-06-2024T13:09:19 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+19-06-2024T13:09:20 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+19-06-2024T13:09:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Home page/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+19-06-2024T13:09:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+19-06-2024T13:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+19-06-2024T13:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+19-06-2024T13:09:21 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+19-06-2024T13:09:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:09:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hob/Action" time="9.558" classname="Test Cases/Hob/Action" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:09:55 - [TEST_CASE][PASSED] - Test Cases/Hob/Action: Test Cases/Hob/Action
+
+19-06-2024T13:09:55 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action")): Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:09:56 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Action")): Object: 'Object Repository/HOB Action/Btn Action' is clicked on
+
+19-06-2024T13:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Action' is clicked on
+
+19-06-2024T13:09:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal hob action"): Taking screenshot successfully
+
+19-06-2024T13:10:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:10:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal hob action.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hob/Action adjust" time="5.395" classname="Test Cases/Hob/Action adjust" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:10:06 - [TEST_CASE][PASSED] - Test Cases/Hob/Action adjust: Test Cases/Hob/Action adjust
+
+19-06-2024T13:10:06 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action")): Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:07 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action adjust")): Object: 'Object Repository/HOB Action/Btn Hob action adjust' is clicked on
+
+19-06-2024T13:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action adjust' is clicked on
+
+19-06-2024T13:10:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal action adjust"): Taking screenshot successfully
+
+19-06-2024T13:10:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:10:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal action adjust.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hob/Action report" time="4.524" classname="Test Cases/Hob/Action report" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:10:17 - [TEST_CASE][PASSED] - Test Cases/Hob/Action report: Test Cases/Hob/Action report
+
+19-06-2024T13:10:17 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action")): Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:17 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob act report")): Object: 'Object Repository/HOB Action/Btn Hob act report' is clicked on
+
+19-06-2024T13:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob act report' is clicked on
+
+19-06-2024T13:10:17 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal action report"): Taking screenshot successfully
+
+19-06-2024T13:10:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:10:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal action report.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hob/Action summary" time="4.659" classname="Test Cases/Hob/Action summary" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:10:23 - [TEST_CASE][PASSED] - Test Cases/Hob/Action summary: Test Cases/Hob/Action summary
+
+19-06-2024T13:10:23 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action")): Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:23 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn hob act summary")): Object: 'Object Repository/HOB Action/Btn hob act summary' is clicked on
+
+19-06-2024T13:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn hob act summary' is clicked on
+
+19-06-2024T13:10:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal Action summary"): Taking screenshot successfully
+
+19-06-2024T13:10:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:10:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal Action summary.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Hob/Hob action assign" time="6.528" classname="Test Cases/Hob/Hob action assign" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:10:29 - [TEST_CASE][PASSED] - Test Cases/Hob/Hob action assign: Test Cases/Hob/Hob action assign
+
+19-06-2024T13:10:29 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn Hob action")): Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn Hob action' is clicked on
+
+19-06-2024T13:10:30 - [TEST_STEP][PASSED] - click(findTestObject("HOB Action/Btn HOB action Assign")): Object: 'Object Repository/HOB Action/Btn HOB action Assign' is clicked on
+
+19-06-2024T13:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HOB Action/Btn HOB action Assign' is clicked on
+
+19-06-2024T13:10:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Menampilkan hal action assign"): Taking screenshot successfully
+
+19-06-2024T13:10:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:10:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Menampilkan hal action assign.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2024T13:08:43 - [TEST_SUITE][FAILED] - HOB: Test Cases/Hob/Action FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/HOB Action/Btn Action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Action.run(Action:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718777300166.run(TempTestSuite1718777300166.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.61)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-09GUU8E', ip: '192.168.10.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\0725\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b92adc236fb84da6263cc0aa6b2d6950
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[19-06-2024T13:08:43 - [TEST_SUITE][FAILED] - HOB: Test Cases/Hob/Action FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/HOB Action/Btn Action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Action.run(Action:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718777300166.run(TempTestSuite1718777300166.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=126.0.6478.61)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-09GUU8E', ip: '192.168.10.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\0725\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b92adc236fb84da6263cc0aa6b2d6950
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

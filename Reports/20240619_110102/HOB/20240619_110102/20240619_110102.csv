@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HOB,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:01:15,19-06-2024 11:25:07,23m - 51.874s,FAILED
+,,,,,,,
+Test Cases/Login/Login,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:08:12,19-06-2024 11:12:12,3m - 59.838s,FAILED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:08:12,19-06-2024 11:11:19,3m - 7.353s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:11:19,19-06-2024 11:11:20,0.897s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:11:20,19-06-2024 11:12:12,51.565s,FAILED
+,,,,,,,
+Test Cases/Hob/Action,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:14:09,19-06-2024 11:14:48,38.811s,FAILED
+"click(findTestObject(""HOB Action/Btn Hob action""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:14:09,19-06-2024 11:14:48,38.786s,FAILED
+,,,,,,,
+Test Cases/Hob/Action adjust,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:16:42,19-06-2024 11:17:20,37.933s,FAILED
+"click(findTestObject(""HOB Action/Btn Hob action""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:16:42,19-06-2024 11:17:20,37.911s,FAILED
+,,,,,,,
+Test Cases/Hob/Action report,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:19:16,19-06-2024 11:19:56,40.377s,FAILED
+"click(findTestObject(""HOB Action/Btn Hob action""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:19:16,19-06-2024 11:19:56,40.364s,FAILED
+,,,,,,,
+Test Cases/Hob/Action summary,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:21:55,19-06-2024 11:22:33,38.042s,FAILED
+"click(findTestObject(""HOB Action/Btn Hob action""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:21:55,19-06-2024 11:22:33,38.031s,FAILED
+,,,,,,,
+Test Cases/Hob/Hob action assign,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:24:28,19-06-2024 11:25:07,38.040s,FAILED
+"click(findTestObject(""HOB Action/Btn Hob action""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:24:29,19-06-2024 11:25:07,38.029s,FAILED

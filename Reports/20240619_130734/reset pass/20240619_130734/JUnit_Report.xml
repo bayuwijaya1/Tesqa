@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="reset pass" time="107.785" tests="2" failures="0" errors="0">
+   <testsuite name="reset pass" tests="2" failures="0" errors="0" time="107.785" skipped="0" timestamp="19-06-2024T13:08:01" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/reset pass">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130734\\reset pass\\20240619_130734"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240619_130734\\reset pass\\20240619_130734\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-login berhasil.png, keyes\keyes-menampilkan pencarian yang dicari.png, keyes\keyes-menampilkan user yang akan di reset pass.png, keyes\keyes-menampilkan box message.png"/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.33"/>
+         <property name="sessionId" value="b6d3ca3d89c3482d41be5847cc2bc829"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login" time="82.604" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:08:01 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+19-06-2024T13:08:02 - [TEST_STEP][PASSED] - openBrowser("https://gpstqa-new.dipostar.org/dipo/"): Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+19-06-2024T13:08:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-06-2024T13:08:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-06-2024T13:08:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gpstqa-new.dipostar.org/dipo/'
+
+19-06-2024T13:08:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+19-06-2024T13:08:37 - [MESSAGE][PASSED] - Current window maximized
+
+19-06-2024T13:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("Home page/input__username"), "aldo"): Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+19-06-2024T13:08:50 - [MESSAGE][PASSED] - Text 'aldo' is set on object 'Object Repository/Home page/input__username'
+
+19-06-2024T13:08:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Home page/input__password"), "TRrAuhBZTmGN3YbeoZ5Gng=="): Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+19-06-2024T13:08:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Home page/input__password'
+
+19-06-2024T13:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Home page/btn_Login")): Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+19-06-2024T13:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/btn_Login' is clicked on
+
+19-06-2024T13:08:55 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("login berhasil", STOP_ON_FAILURE): Taking screenshot successfully
+
+19-06-2024T13:09:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:09:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-login berhasil.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User profile/Reset pass" time="24.404" classname="Test Cases/User profile/Reset pass" status="PASSED">
+         <system-out><![CDATA[19-06-2024T13:09:24 - [TEST_CASE][PASSED] - Test Cases/User profile/Reset pass: Test Cases/User profile/Reset pass
+
+19-06-2024T13:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Reset password/reset password")): Object: 'Object Repository/Reset password/reset password' is clicked on
+
+19-06-2024T13:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset password/reset password' is clicked on
+
+19-06-2024T13:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Reset password/search"), "kevin qa"): Text 'kevin qa' is set on object 'Object Repository/Reset password/search'
+
+19-06-2024T13:09:32 - [MESSAGE][PASSED] - Text 'kevin qa' is set on object 'Object Repository/Reset password/search'
+
+19-06-2024T13:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Reset password/btn search")): Object: 'Object Repository/Reset password/btn search' is clicked on
+
+19-06-2024T13:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset password/btn search' is clicked on
+
+19-06-2024T13:09:33 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan pencarian yang dicari"): Taking screenshot successfully
+
+19-06-2024T13:09:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:09:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan pencarian yang dicari.png]]
+
+19-06-2024T13:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Reset password/btn image ress")): Object: 'Object Repository/Reset password/btn image ress' is clicked on
+
+19-06-2024T13:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset password/btn image ress' is clicked on
+
+19-06-2024T13:09:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan user yang akan di reset pass"): Taking screenshot successfully
+
+19-06-2024T13:09:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:09:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan user yang akan di reset pass.png]]
+
+19-06-2024T13:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Reset password/btn reset pass")): Object: 'Object Repository/Reset password/btn reset pass' is clicked on
+
+19-06-2024T13:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Reset password/btn reset pass' is clicked on
+
+19-06-2024T13:09:45 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("menampilkan box message"): Taking screenshot successfully
+
+19-06-2024T13:09:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+19-06-2024T13:09:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-menampilkan box message.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-06-2024T13:08:01 - [TEST_SUITE][PASSED] - reset pass: Test Cases/User profile/Reset pass]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

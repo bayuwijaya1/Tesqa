@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Report,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:05:23,19-06-2024 11:23:51,18m - 28.643s,FAILED
+,,,,,,,
+Test Cases/Login/Login,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:16:19,19-06-2024 11:18:35,2m - 16.102s,FAILED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:16:19,19-06-2024 11:17:43,1m - 24.093s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:17:43,19-06-2024 11:17:44,1.021s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:17:44,19-06-2024 11:18:35,50.949s,FAILED
+,,,,,,,
+Test Cases/Report/Unvisited list report,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:20:31,19-06-2024 11:21:12,40.444s,FAILED
+"click(findTestObject(""Report/btn Report""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:20:31,19-06-2024 11:21:12,40.426s,FAILED
+,,,,,,,
+Test Cases/Report/Visit result report,TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:23:12,19-06-2024 11:23:51,39.699s,FAILED
+"click(findTestObject(""Report/btn Report""))",TestCloud - Windows - Chrome 124.0.0.0,,,19-06-2024 11:23:12,19-06-2024 11:23:51,39.686s,FAILED

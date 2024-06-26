@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HOB,Chrome 126.0.0.0,,,19-06-2024 13:08:43,19-06-2024 13:10:36,1m - 52.537s,PASSED
+,,,,,,,
+Test Cases/Login/Login,Chrome 126.0.0.0,,,19-06-2024 13:08:44,19-06-2024 13:09:42,58.139s,PASSED
+"openBrowser(""https://gpstqa-new.dipostar.org/dipo/"")",Chrome 126.0.0.0,,,19-06-2024 13:08:45,19-06-2024 13:09:19,34.224s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,19-06-2024 13:09:19,19-06-2024 13:09:19,0.054s,PASSED
+"setText(findTestObject(""Home page/input__username""), ""aldo"")",Chrome 126.0.0.0,,,19-06-2024 13:09:19,19-06-2024 13:09:20,1.016s,PASSED
+"setEncryptedText(findTestObject(""Home page/input__password""), ""TRrAuhBZTmGN3YbeoZ5Gng=="")",Chrome 126.0.0.0,,,19-06-2024 13:09:20,19-06-2024 13:09:21,0.693s,PASSED
+"click(findTestObject(""Home page/btn_Login""))",Chrome 126.0.0.0,,,19-06-2024 13:09:21,19-06-2024 13:09:21,0.658s,PASSED
+"takeScreenshotAsCheckpoint(""login berhasil"", STOP_ON_FAILURE)",Chrome 126.0.0.0,,,19-06-2024 13:09:21,19-06-2024 13:09:42,20.735s,PASSED
+,,,,,,,
+Test Cases/Hob/Action,Chrome 126.0.0.0,,,19-06-2024 13:09:55,19-06-2024 13:10:05,9.558s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 126.0.0.0,,,19-06-2024 13:09:55,19-06-2024 13:09:56,0.458s,PASSED
+"click(findTestObject(""HOB Action/Btn Action""))",Chrome 126.0.0.0,,,19-06-2024 13:09:56,19-06-2024 13:09:56,0.549s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal hob action"")",Chrome 126.0.0.0,,,19-06-2024 13:09:56,19-06-2024 13:10:05,8.436s,PASSED
+,,,,,,,
+Test Cases/Hob/Action adjust,Chrome 126.0.0.0,,,19-06-2024 13:10:06,19-06-2024 13:10:12,5.395s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 126.0.0.0,,,19-06-2024 13:10:06,19-06-2024 13:10:07,0.433s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action adjust""))",Chrome 126.0.0.0,,,19-06-2024 13:10:07,19-06-2024 13:10:07,0.606s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal action adjust"")",Chrome 126.0.0.0,,,19-06-2024 13:10:07,19-06-2024 13:10:12,4.127s,PASSED
+,,,,,,,
+Test Cases/Hob/Action report,Chrome 126.0.0.0,,,19-06-2024 13:10:17,19-06-2024 13:10:21,4.524s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 126.0.0.0,,,19-06-2024 13:10:17,19-06-2024 13:10:17,0.379s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob act report""))",Chrome 126.0.0.0,,,19-06-2024 13:10:17,19-06-2024 13:10:17,0.401s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal action report"")",Chrome 126.0.0.0,,,19-06-2024 13:10:17,19-06-2024 13:10:21,3.672s,PASSED
+,,,,,,,
+Test Cases/Hob/Action summary,Chrome 126.0.0.0,,,19-06-2024 13:10:23,19-06-2024 13:10:28,4.659s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 126.0.0.0,,,19-06-2024 13:10:23,19-06-2024 13:10:23,0.430s,PASSED
+"click(findTestObject(""HOB Action/Btn hob act summary""))",Chrome 126.0.0.0,,,19-06-2024 13:10:23,19-06-2024 13:10:24,0.470s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal Action summary"")",Chrome 126.0.0.0,,,19-06-2024 13:10:24,19-06-2024 13:10:28,3.729s,PASSED
+,,,,,,,
+Test Cases/Hob/Hob action assign,Chrome 126.0.0.0,,,19-06-2024 13:10:29,19-06-2024 13:10:36,6.528s,PASSED
+"click(findTestObject(""HOB Action/Btn Hob action""))",Chrome 126.0.0.0,,,19-06-2024 13:10:29,19-06-2024 13:10:30,0.425s,PASSED
+"click(findTestObject(""HOB Action/Btn HOB action Assign""))",Chrome 126.0.0.0,,,19-06-2024 13:10:30,19-06-2024 13:10:30,0.431s,PASSED
+"takeScreenshotAsCheckpoint(""Menampilkan hal action assign"")",Chrome 126.0.0.0,,,19-06-2024 13:10:30,19-06-2024 13:10:36,5.642s,PASSED
