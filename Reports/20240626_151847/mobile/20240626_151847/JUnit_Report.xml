@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="mobile" time="33.426" tests="1" failures="0" errors="0">
+   <testsuite name="mobile" tests="1" failures="0" errors="0" time="33.426" skipped="0" timestamp="26-06-2024T15:18:52" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/mobile">
+      <properties>
+         <property name="deviceName" value="Xiaomi 23021RAA2Y (Android 14)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240626_151847\\mobile\\20240626_151847"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240626_151847\\mobile\\20240626_151847\\appium.log, C:\\Users\\0725\\git\\Tesqa\\Reports\\20240626_151847\\mobile\\20240626_151847\\appium_error.log, C:\\Users\\0725\\git\\Tesqa\\Reports\\20240626_151847\\mobile\\20240626_151847\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.10.3&quot;}}}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.10.3"/>
+         <property name="deviceModel" value="23021RAA2Y"/>
+         <property name="hostAddress" value="192.168.4.205"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="259f8df5"/>
+         <property name="deviceName" value="Xiaomi 23021RAA2Y (Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/note" time="33.258" classname="Test Cases/Mobile/note" status="PASSED">
+         <system-out><![CDATA[26-06-2024T15:18:52 - [TEST_CASE][PASSED] - Test Cases/Mobile/note: Test Cases/Mobile/note
+
+26-06-2024T15:18:52 - [TEST_STEP][PASSED] - startExistingApplication("com.miui.notes"): Starting application with Id: 'com.miui.notes'
+
+26-06-2024T15:18:53 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+26-06-2024T15:18:57 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+26-06-2024T15:18:57 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\0725\.appium
+
+26-06-2024T15:18:57 - [MESSAGE][INFO] - appium outlog: C:\Users\0725\git\Tesqa\Reports\20240626_151847\mobile\20240626_151847\appium.log
+
+26-06-2024T15:18:57 - [MESSAGE][INFO] - appium errlog: C:\Users\0725\git\Tesqa\Reports\20240626_151847\mobile\20240626_151847\appium_error.log
+
+26-06-2024T15:19:00 - [MESSAGE][INFO] - Appium server started on port 52,487
+
+26-06-2024T15:19:11 - [MESSAGE][PASSED] - Starting application with Id: 'com.miui.notes'
+
+26-06-2024T15:19:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mobile/android.widget.ImageView"), 0): Tapped on element 'Object Repository/mobile/android.widget.ImageView'
+
+26-06-2024T15:19:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-06-2024T15:19:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mobile/android.widget.ImageView'
+
+26-06-2024T15:19:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mobile/android.widget.EditText - Title"), "Test", 0): Text 'Test' has been set to element 'Object Repository/mobile/android.widget.EditText - Title'
+
+26-06-2024T15:19:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-06-2024T15:19:19 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/mobile/android.widget.EditText - Title'
+
+26-06-2024T15:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/mobile/android.widget.EditText - Start typing  Create a mind map"), "Coba mobile", 0): Text 'Coba mobile' has been set to element 'Object Repository/mobile/android.widget.EditText - Start typing  Create a mind map'
+
+26-06-2024T15:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-06-2024T15:19:22 - [MESSAGE][PASSED] - Text 'Coba mobile' has been set to element 'Object Repository/mobile/android.widget.EditText - Start typing  Create a mind map'
+
+26-06-2024T15:19:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/mobile/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/mobile/android.widget.ImageView (1)'
+
+26-06-2024T15:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-06-2024T15:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/mobile/android.widget.ImageView (1)'
+
+26-06-2024T15:19:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+26-06-2024T15:19:25 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-06-2024T15:18:52 - [TEST_SUITE][PASSED] - mobile: Test Cases/Mobile/note]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

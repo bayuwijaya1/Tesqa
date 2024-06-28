@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Agent wiki2" time="18.127" tests="1" failures="0" errors="0">
+   <testsuite name="Agent wiki2" tests="1" failures="0" errors="0" time="18.127" skipped="0" timestamp="26-06-2024T14:26:57" hostname="0725 - DESKTOP-09GUU8E" id="Test Suites/Agent wiki2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240626_142653\\Agent wiki2\\20240626_142653"/>
+         <property name="logFiles" value="C:\\Users\\0725\\git\\Tesqa\\Reports\\20240626_142653\\Agent wiki2\\20240626_142653\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0725 - DESKTOP-09GUU8E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.205"/>
+         <property name="sessionId" value="513874659720d6ae8eb838b5e727ebc8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Agent/Agent wiki2" time="17.956" classname="Test Cases/Agent/Agent wiki2" status="PASSED">
+         <system-out><![CDATA[26-06-2024T14:26:57 - [TEST_CASE][PASSED] - Test Cases/Agent/Agent wiki2: Test Cases/Agent/Agent wiki2
+
+26-06-2024T14:26:57 - [TEST_STEP][PASSED] - openBrowser("https://www.wikipedia.org/"): Browser is opened with url: 'https://www.wikipedia.org/'
+
+26-06-2024T14:26:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-06-2024T14:26:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-06-2024T14:27:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+26-06-2024T14:27:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-06-2024T14:27:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-06-2024T14:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Agent wiki/deuscth")): Object: 'Object Repository/Agent wiki/deuscth' is clicked on
+
+26-06-2024T14:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Agent wiki/deuscth' is clicked on
+
+26-06-2024T14:27:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+26-06-2024T14:27:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+26-06-2024T14:27:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-06-2024T14:27:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-06-2024T14:26:57 - [TEST_SUITE][PASSED] - Agent wiki2: Test Cases/Agent/Agent wiki2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

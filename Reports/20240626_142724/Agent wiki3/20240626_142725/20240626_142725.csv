@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Agent wiki3,Chrome 126.0.0.0,,,26-06-2024 14:27:29,26-06-2024 14:27:42,13.291s,PASSED
+,,,,,,,
+Test Cases/Agent/Agent wiki3,Chrome 126.0.0.0,,,26-06-2024 14:27:29,26-06-2024 14:27:42,13.123s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,26-06-2024 14:27:29,26-06-2024 14:27:34,4.841s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,26-06-2024 14:27:34,26-06-2024 14:27:34,0.168s,PASSED
+delay(2),Chrome 126.0.0.0,,,26-06-2024 14:27:34,26-06-2024 14:27:37,2.045s,PASSED
+"click(findTestObject(""Agent wiki/Spain""))",Chrome 126.0.0.0,,,26-06-2024 14:27:37,26-06-2024 14:27:40,3.167s,PASSED
+delay(2),Chrome 126.0.0.0,,,26-06-2024 14:27:40,26-06-2024 14:27:42,2.010s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-06-2024 14:27:42,26-06-2024 14:27:42,0.646s,PASSED

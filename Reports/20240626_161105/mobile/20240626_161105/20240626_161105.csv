@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+mobile,,,,26-06-2024 16:11:11,26-06-2024 16:11:43,32.280s,PASSED
+,,,,,,,
+Test Cases/Mobile/note,,,,26-06-2024 16:11:11,26-06-2024 16:11:43,31.941s,PASSED
+"startExistingApplication(""com.miui.notes"")",,,,26-06-2024 16:11:12,26-06-2024 16:11:30,18.274s,PASSED
+"tap(findTestObject(""Object Repository/mobile/android.widget.ImageView""), 0)",,,,26-06-2024 16:11:30,26-06-2024 16:11:33,2.973s,PASSED
+"setText(findTestObject(""Object Repository/mobile/android.widget.EditText - Title""), ""Test"", 0)",,,,26-06-2024 16:11:33,26-06-2024 16:11:37,4.122s,PASSED
+"setText(findTestObject(""Object Repository/mobile/android.widget.EditText - Start typing  Create a mind map""), ""Coba mobile"", 0)",,,,26-06-2024 16:11:37,26-06-2024 16:11:41,3.392s,PASSED
+"tap(findTestObject(""Object Repository/mobile/android.widget.ImageView (1)""), 0)",,,,26-06-2024 16:11:41,26-06-2024 16:11:42,1.028s,PASSED
+closeApplication(),,,,26-06-2024 16:11:42,26-06-2024 16:11:43,1.663s,PASSED

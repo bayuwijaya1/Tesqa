@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Agent wiki2,Chrome 126.0.0.0,,,26-06-2024 14:26:57,26-06-2024 14:27:15,18.127s,PASSED
+,,,,,,,
+Test Cases/Agent/Agent wiki2,Chrome 126.0.0.0,,,26-06-2024 14:26:57,26-06-2024 14:27:15,17.956s,PASSED
+"openBrowser(""https://www.wikipedia.org/"")",Chrome 126.0.0.0,,,26-06-2024 14:26:57,26-06-2024 14:27:07,9.826s,PASSED
+delay(3),Chrome 126.0.0.0,,,26-06-2024 14:27:07,26-06-2024 14:27:10,3.046s,PASSED
+"click(findTestObject(""Agent wiki/deuscth""))",Chrome 126.0.0.0,,,26-06-2024 14:27:10,26-06-2024 14:27:12,1.493s,PASSED
+delay(3),Chrome 126.0.0.0,,,26-06-2024 14:27:12,26-06-2024 14:27:15,3.011s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,26-06-2024 14:27:15,26-06-2024 14:27:15,0.326s,PASSED
